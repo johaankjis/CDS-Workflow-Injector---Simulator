@@ -155,8 +155,7 @@ CDS-Workflow-Injector---Simulator/
 ├── hooks/                       # Custom React hooks
 ├── next.config.mjs             # Next.js configuration
 ├── tsconfig.json               # TypeScript configuration
-├── tailwind.config.ts          # Tailwind CSS configuration
-├── postcss.config.mjs          # PostCSS configuration
+├── postcss.config.mjs          # PostCSS configuration (Tailwind CSS v4)
 ├── components.json             # shadcn/ui configuration
 └── package.json                # Project dependencies
 ```
@@ -225,7 +224,7 @@ The simulator includes several pre-configured templates:
 The project uses strict TypeScript settings with Next.js optimizations. Path aliases are configured with `@/*` pointing to the root directory.
 
 ### Tailwind CSS
-Tailwind CSS v4 is configured with custom color schemes and animations. The design system supports both light and dark themes.
+Tailwind CSS v4 is configured via PostCSS with custom animations. The design system supports both light and dark themes using CSS variables.
 
 ### Next.js Configuration
 - TypeScript build errors are currently ignored for development
@@ -249,7 +248,7 @@ For issues, questions, or feature requests, please open an issue in the GitHub r
 
 ## 🔄 Version
 
-Current Version: 1.0.0
+Current Version: 0.1.0
 
 ---
 
