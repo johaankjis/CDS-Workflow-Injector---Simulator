@@ -224,7 +224,7 @@ The simulator includes several pre-configured templates:
 The project uses strict TypeScript settings with Next.js optimizations. Path aliases are configured with `@/*` pointing to the root directory.
 
 ### Tailwind CSS
-Tailwind CSS v4 is configured via PostCSS with custom animations. The design system supports both light and dark themes using CSS variables.
+Tailwind CSS v4 is configured via PostCSS using the `@tailwindcss/postcss` plugin (no separate tailwind.config file needed in v4). The design system supports both light and dark themes using CSS variables.
 
 ### Next.js Configuration
 - TypeScript build errors are currently ignored for development
